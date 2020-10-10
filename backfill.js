@@ -70,10 +70,10 @@ function getSQLDateFromDatetime(date) {
 
 
 const sqlConnection = mysql.createConnection({
-    host:  "localhost",
-    user: "root",
-    password: "Zzqssy95",
-    database: "db_test"
+    host:  "your host name",
+    user: "your user name",
+    password: "your password",
+    database: "your database name"
 });
 
 
